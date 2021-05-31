@@ -58,19 +58,19 @@ $data = mysqli_fetch_array($query);
                     </div>
                     <div class="mb-3"> 
                       <label for="kode_kelas" class="form-label">Kode Kelas</label>
-                      <input type="text" class="form-control" name="kode_kelas" placeholder="Masukkan Kode Kelas" value="<?php echo $data['kode_kelas'] ?>">
+                      <input type="text" class="form-control"  name="kode_kelas" placeholder="Masukkan Kode Kelas" value="<?php echo $data['kode_kelas'] ?>" required>
                     </div>
                     <div class="mb-3">
                       <label for="kode-matkul" class="form-label">Kode Matkul</label>
-                      <input type="text" class="form-control" name="kode_matkul" placeholder="Masukkan Kode Matkul" value="<?php echo $data['kode_matkul'] ?>">
+                      <input type="text" class="form-control" name="kode_matkul" placeholder="Masukkan Kode Matkul" value="<?php echo $data['kode_matkul'] ?>" required>
                     </div>
                     <div class="mb-3">
                         <label for="nama_matkul" class="form-label">Nama Matkul</label>
-                        <input type="text" class="form-control" name="nama_matkul" placeholder="Masukkan Nama Matkul" value="<?php echo $data['nama_matkul'] ?>">
+                        <input type="text" class="form-control" name="nama_matkul" placeholder="Masukkan Nama Matkul" value="<?php echo $data['nama_matkul'] ?>" required>
                       </div>
                       <div class="mb-3">
                         <label for="tahun" class="form-label">Tahun</label>
-                        <input type="text" class="form-control" name="tahun" placeholder="Masukkan Tahun Ajaran" value="<?php echo $data['tahun'] ?>">
+                        <input type="text" class="form-control" name="tahun" placeholder="Masukkan Tahun Ajaran" value="<?php echo $data['tahun'] ?>" required>
                       </div>
                       <div class="mb-3">
                         <label for="semester" class="form-label">Semester</label><br>
@@ -79,7 +79,7 @@ $data = mysqli_fetch_array($query);
                       </div>
                       <div class="mb-3">
                         <label for="sks" class="form-label">Sks</label>
-                        <input type="text" class="form-control" name="sks" placeholder="Masukkan Sks" value="<?php echo $data['sks'] ?>">
+                        <input type="text" class="form-control" name="sks" placeholder="Masukkan Sks" value="<?php echo $data['sks'] ?>" required>
                       </div>
                     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                 </form>

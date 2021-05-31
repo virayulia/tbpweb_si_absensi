@@ -51,19 +51,19 @@ require_once('head.php');
             <form action="" method="post">
                     <div class="mb-3"> 
                       <label for="kode_kelas" class="form-label">Kode Kelas</label>
-                      <input type="text" class="form-control" name="kode_kelas" placeholder="Masukkan Kode Kelas">
+                      <input type="text" class="form-control" name="kode_kelas" placeholder="Masukkan Kode Kelas" required>
                     </div>
                     <div class="mb-3">
                       <label for="kode-matkul" class="form-label">Kode Matkul</label>
-                      <input type="text" class="form-control" name="kode_matkul" placeholder="Masukkan Kode Matkul">
+                      <input type="text" class="form-control" name="kode_matkul" placeholder="Masukkan Kode Matkul" required>
                     </div>
                     <div class="mb-3">
                         <label for="nama_matkul" class="form-label">Nama Matkul</label>
-                        <input type="text" class="form-control" name="nama_matkul" placeholder="Masukkan Nama Matkul">
+                        <input type="text" class="form-control" name="nama_matkul" placeholder="Masukkan Nama Matkul" required>
                       </div>
                       <div class="mb-3">
                         <label for="tahun" class="form-label">Tahun</label>
-                        <input type="text" class="form-control" name="tahun" placeholder="Masukkan Tahun Ajaran">
+                        <input type="text" class="form-control" name="tahun" placeholder="Masukkan Tahun Ajaran" required>
                       </div>
                       <div class="mb-3">
                         <label for="semester" class="form-label">Semester</label><br>
@@ -72,7 +72,7 @@ require_once('head.php');
                       </div>
                       <div class="mb-3">
                         <label for="sks" class="form-label">Sks</label>
-                        <input type="text" class="form-control" name="sks" placeholder="Masukkan Sks">
+                        <input type="text" class="form-control" name="sks" placeholder="Masukkan Sks" required>
                       </div>
                     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                 </form>

@@ -1,3 +1,8 @@
+<?php
+    if(!isset($_SESSION['username'])){
+        header("location.index");
+    }
+?>
 <header id="header" class="header">
             <div class="header-menu">
                 <div class="col-sm-7">
@@ -37,7 +42,7 @@
                         </a>
                         <div class="user-menu dropdown-menu">
                             <a class="nav-link" href="#"><i class="fa fa -cog"></i>Settings</a>
-                            <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Logout</a>
+                            <a class="nav-link" href="logout.php"><i class="fa fa-power -off"></i>Logout (<?php echo $_SESSION['username']; ?>)</a>
                         </div>
                     </div>
 

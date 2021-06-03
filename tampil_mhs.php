@@ -4,7 +4,7 @@ include('koneksi.php');
 require_once('head.php');
 
 $username = $_SESSION['username'];
-$sql = "SELECT * FROM kelas join krs on kelas.kelas_id = krs.kelas_id join mahasiswa on krs.id = mahasiswa.id WHERE mahasiswa.nim = '$username' ";
+$sql = "SELECT * FROM kelas join krs on kelas.kelas_id = krs.kelas_id join mahasiswa on krs.mahasiswa_id = mahasiswa.mahasiswa_id WHERE mahasiswa.nim = '$username' ";
 
 
 ?>
@@ -22,7 +22,7 @@ $sql = "SELECT * FROM kelas join krs on kelas.kelas_id = krs.kelas_id join mahas
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Dashboard</h1>
+                        <h1></h1>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ $sql = "SELECT * FROM kelas join krs on kelas.kelas_id = krs.kelas_id join mahas
                     <td><?php echo $row ['tahun'] ?></td>
                     <td><?php echo $row ['semester'] ?></td>
                     <td><?php echo $row ['sks'] ?></td>
-                    <td><a href="kelas_detail.php?kelas_id=<?= $row['kelas_id']; ?>" class="btn btn-primary">Detail</a>
+                    <td><a href="belom.php?kelas_id=<?= $row['kelas_id']; ?>" class="btn btn-primary">Detail</a>
                     </td>
                 </tr>
 

@@ -1,5 +1,6 @@
 <!doctype html>
 <?php
+session_start();
 require_once('head.php');
 ?>
 <body>

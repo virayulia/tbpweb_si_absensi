@@ -18,6 +18,8 @@
                     <li>
                         <a href=""> <i class="menu-icon fa fa-dashboard"></i>Home </a>
                     </li>
+                    <?php
+                    if(@$_SESSION['level']=='admin') {?>
                     <li>
                         <a href="kelas_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Kelas </a>
                     </li>
@@ -25,8 +27,16 @@
                         <a href="krs_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Peserta Kelas </a>
                     </li>
                     <li>
-                        <a href="pertemuan_tampill.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Pertemuan </a>
+                        <a href="pertemuan_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Pertemuan </a>
                     </li>
+                    <?php 
+                    } 
+                    else {?>
+                    <li>
+                        <a href="tampil_mhs.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Mahasiswa </a>
+                    </li>
+                    <?php
+                    }?>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

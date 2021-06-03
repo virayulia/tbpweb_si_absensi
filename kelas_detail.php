@@ -79,7 +79,7 @@ require_once('head.php');
         </td>
         <td><?php echo $data['pertemuan_ke'];?></td>
         <td>
-            <a href=" "><button class="btn btn-primary">Detail</button></a>       
+            <a href="pertemuan_tampil.php?kelas_id=<?= $data['kelas_id']; ?>  "><button class="btn btn-primary">Detail</button></a>       
         </td>
     </tr>
     <?php 

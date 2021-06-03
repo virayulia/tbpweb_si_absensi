@@ -77,7 +77,7 @@ $sql="SELECT * FROM kelas ORDER by tahun desc, semester desc";
                                 <td><?php echo $row ['semester'] ?></td>
                                 <td><?php echo $row ['sks'] ?></td>
                                 <td><a href="kelas_edit.php?kelas_id=<?= $row['kelas_id']; ?>" class="btn btn-warning" onClick="return edit()">Edit</a>
-                                    <a href="" class="btn btn-primary">Detail</a>
+                                    <a href="kelas_detail.php?kelas_id=<?= $row['kelas_id']; ?>" class="btn btn-primary" class="btn btn-primary">Detail</a>
                                 </td>
                             </tr>
 

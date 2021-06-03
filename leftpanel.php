@@ -22,7 +22,10 @@
                         <a href="kelas_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Kelas </a>
                     </li>
                     <li>
-                        <a href=""> <i class="menu-icon fa fa-puzzle-piece"></i>Program </a>
+                        <a href="krs_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Peserta Kelas </a>
+                    </li>
+                    <li>
+                        <a href="pertemuan_tampill.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Pertemuan </a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->

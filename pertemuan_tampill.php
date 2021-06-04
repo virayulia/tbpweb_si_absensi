@@ -73,7 +73,7 @@ require_once('head.php');
         <td><?php echo $data['tanggal'];?></td>
         <td><?php echo $data['materi'];?></td>
         <td>
-            <a href="" class="btn btn-primary">Detail</a>
+            <a href="upload_csv.php?pertemuan_id=<?= $row['pertemuan_id']; ?>" class="btn btn-primary">Detail</a>
         </td>
     </tr>
     <?php 

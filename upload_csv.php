@@ -44,7 +44,6 @@ require_once('leftpanel.php');
         </div>
 
 <?php
-include 'koneksi.php';
 require_once('head.php');
 
 $kelas_id = 1;

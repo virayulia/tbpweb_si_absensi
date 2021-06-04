@@ -52,12 +52,12 @@
 				<form action="login-proses.php" method="post" class="login100-form validate-form p-b-33 p-t-5" style="background-color: rgb(255, 255, 225,0.5);">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="ID">
+						<input class="input100" type="text" name="username" placeholder="ID" autocomplete='off' required>
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="password" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password" required>
 						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
 					</div>
 

@@ -32,13 +32,18 @@ require_once('head.php');
             </div>
         </div>
 
-        <div class="content mt-3">
+        <div class="content mt-3" align="center">
 
             <div class="animated fadeIn">
-                Isi home
+                <h1><b>Selamat Datang</b></h1> <br>
+                <img src="images/home.jpg"  >
+
+            </div>
+
             </div>
 
         </div>
+
     </div>    
 
 </body>

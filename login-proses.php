@@ -30,13 +30,13 @@ if($cek > 0){
   // alihkan ke halaman dashboard admin
   header("location:home.php");
 
- // cek jika user login sebagai pegawai
+ // cek jika user login sebagai mahasiswa
  }else if($data['level']=="mahasiswa"){
   // buat session login dan username
   $_SESSION['name'] = $data['nama'];
   $_SESSION['username'] = $username;
   $_SESSION['level'] = "mahasiswa";
-  // alihkan ke halaman dashboard pegawai
+  // alihkan ke halaman dashboard mahasiswa
   header("location:home.php");
 
  }else{

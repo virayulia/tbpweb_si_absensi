@@ -58,14 +58,14 @@ require_once('head.php');
                 echo "
                 <script>
                 alert('Data berhasil ditambahkan!');
-                document.location.href = 'pertemuan_tampil.php';
+                document.location.href = 'pertemuan_tampill.php';
                 </script>
                 ";
             } else {
                 echo "
                 <script>
                 alert('Data gagal ditambahkan!');
-                document.location.href = 'pertemuan_tampil.php';
+                document.location.href = 'pertemuan_tampill.php';
                 </script>
                 ";
             }
@@ -80,7 +80,7 @@ require_once('head.php');
                     <strong>Tambah Pertemuan Kelas</strong>
                 </div>
                 <div class="pull-right">
-                    <a href="pertemuan_tampil.php" class="btn btn-success btn-sm"> 
+                    <a href="pertemuan_tampill.php" class="btn btn-success btn-sm"> 
                         <i class="fa">Back</i>
                     </a>
                 </div>

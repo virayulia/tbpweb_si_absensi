@@ -62,7 +62,7 @@ require_once('head.php');
     <?php
             $no = 1;
             //$koneksi = new mysqli ("localhost","root","","si_absensi");
-            $sql = mysqli_query($db, "SELECT pertemuan.pertemuan_ke, pertemuan.tanggal, pertemuan.materi, kelas.kode_kelas from pertemuan inner join kelas on kelas.kelas_id=pertemuan.kelas_id WHERE kelas.kelas_id= '".$_GET['kelas_id']."' ");
+            $sql = mysqli_query($db, "SELECT pertemuan.pertemuan_ke, pertemuan.tanggal, pertemuan.materi, kelas.kode_kelas from pertemuan inner join kelas on kelas.kelas_id=pertemuan.kelas_id");
             
             while ($data = $sql->fetch_assoc()){
     ?>  

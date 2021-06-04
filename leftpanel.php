@@ -16,7 +16,7 @@
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href=""> <i class="menu-icon fa fa-dashboard"></i>Home </a>
+                        <a href="home.php"> <i class="menu-icon fa fa-dashboard"></i>Home </a>
                     </li>
                     <?php
                     if(@$_SESSION['level']=='admin') {?>
@@ -27,7 +27,7 @@
                         <a href="krs_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Peserta Kelas </a>
                     </li>
                     <li>
-                        <a href="pertemuan_tampil.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Pertemuan </a>
+                        <a href="pertemuan_tampill.php"> <i class="menu-icon fa fa-puzzle-piece"></i>Pertemuan </a>
                     </li>
                     <?php 
                     } 
